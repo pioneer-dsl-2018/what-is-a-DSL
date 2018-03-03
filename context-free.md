@@ -12,10 +12,9 @@
 ## How did you learn how to program in this language?
 
 
-## What is the underlying _computational model_ for this programming language? 
-_We don't yet have a great definition of the term "computational model". 
-For now, try to come up with the clearest, most concise explanation of what 
-happens when a ContextFree program runs._
+## Describe what happens when a ContextFree program runs
+_Specifically, how does the computer interpret the rules in a program, in
+order to turn those rules into a picture?_
 
 
 ## What do you think is interesting about the ContextFree program you wrote?
