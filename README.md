@@ -62,7 +62,7 @@ You've already forked the repository from the class's GitHub organization, so
 now you need to:
    1. Clone it to your own computer.
    1. Modify the code on your own computer so that it contains your solution.
-   1. Commit and push your local code back to your fork.
+   1. Commit and push your local code back to your GitHub fork.
    1. Submit a pull request from your fork on GitHub.
 
 You don't need to do a peer review on anyone else's code, but feel free to look
@@ -83,7 +83,9 @@ download version 2.2**, which is _not_ the current version of the language.
 [Mac](http://www.contextfreeart.org/download/ContextFree2.2.2.dmg),
 [Linux](http://www.contextfreeart.org/download/ContextFreeSource2.2.2.tgz)).
 The version 2.2 documentation is 
-[here](https://github.com/MtnViewJohn/context-free/wiki/Version-2-Syntax).
+[here](https://github.com/MtnViewJohn/context-free/wiki/Version-2-Syntax). When you
+open ContextFree, it might ask you to update the program; but you should 
+ignore that request. Use the old version (2.2) instead.
 
 2. Write an interesting ContextFree program. Save your program in a file called
    `firstname_lastname.cfdg` (where you fill in your first and last names).
@@ -97,8 +99,8 @@ The version 2.2 documentation is
 Read [Fowler, Chapter 2][Fowler].<sup>1</sup> For the most part, this reading is 
 self-contained. In a few places, Fowler references other parts of the book. 
 Ignore these references; you can understand the reading without them. It may be 
-helpful to know that, in Chapter 1, Fowler described a domain called Miss 
-Grant's Controller. You can safely substitute the domain you choose for your DSL 
+helpful to know that, in Chapter 1, Fowler described a domain called "Miss 
+Grant's Controller". You can safely substitute ContextFree's domain
 in place of Miss Grant's Controller. 
 
 _<sup>1</sup> This copy of the reading is for class use only. You should not distribute
@@ -138,6 +140,9 @@ you try to do something in ContextFree that was difficult?
 - Did you learn any cool language features (from ContextFree or Markdown) that
 might add to your partner's work?
 
+## Part 8: Discussion questions
+Respond to the prompts in `discussion-questions.md`, by editing that file.
+
 ## Grading
 Good responses (i.e., responses that receive a B) will:
 
@@ -154,9 +159,6 @@ Great responses (i.e., responses that receive an A) will additionally:
    aspects of each DSL in the assignment and / or by disagreeing with the
    classification that Fowler might make and by presenting a strong argument for
    a different classification.
-
-## Part 8: Discussion questions
-Respond to the prompts in `discussion-questions.md`, by editing that file.
 
 ## Tasks
 
