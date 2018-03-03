@@ -1,4 +1,4 @@
-[Assignment HOWTO]: https://github.com/pioneer-dsl-2018/pioneer-dsl-2018.github.io/wiki/Assignment-HOWTO
+[Assignment HOWTO]: https://pioneer-dsl-2018.github.io/resources/Assignment-HOWTO.html
 [Fowler]: https://app.schoology.com/course/1448538421/materials/gp/1494989781
 [markdown]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 [Pulls]: https://github.com/pioneer-dsl-2018/what-is-a-DSL/pulls
