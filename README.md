@@ -21,7 +21,7 @@ In this assignment, you'll:
    + Use what you learned from the reading to understand and critique 
      ContextFree's design.
 
-**This part of the assignment is due by 
+**These parts of the assignment are due by 
 [Monday, March 12 at 8:59pm, Pacific Daylight Time][WorldClock1].** (Click on 
 the link to view a world clock that converts to your local time.)
 
@@ -29,7 +29,7 @@ Also, as with all assignments, you'll:
    + Critique each other's work
    + Identify some discussion questions for our next meeting.
      
-**This part of the assignment is due by 
+**The critiques and discussion questions are due by
 [Thursday, March 15 at 8:59pm, Pacific Daylight Time][WorldClock2].**
 
 After this assignment, you should be able to:
