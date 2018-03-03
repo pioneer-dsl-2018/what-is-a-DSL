@@ -47,19 +47,36 @@ spending on the assignment. If it looks like you're going to spend more than
 
 ### Teamwork
 For the technical part of the assignment, you'll work by yourself (though you're
-free to talk about the assignment with anyone). For the critique part of the
-assignment, you'll review someone else's work.
+free to discuss the assignment with anyone else in the class, on Schoology). For
+the critique part of the assignment, you'll review someone else's work.
 
 ## Part 1: Read up on the assignment workflow
 [This article][Assignment HOWTO] describes how we'll do our assignments on
 GitHub. **Be sure to read it before you start working on your assignment.**
 
-## Part 2: Submit your Coding Bat code
+## Part 2: Submit your Coding Bat code and peer-review someone else's code
+Practice the assignment workflow by submitting your code for the "nested
+parentheses" Coding Bat example. 
+
+You've already forked the repository from the class's GitHub organization, so
+now you need to:
+   1. Clone it to your own computer.
+   1. Modify the code on your own computer so that it contains your solution.
+   1. Commit and push your local code back to your fork.
+   1. Submit a pull request from your fork on GitHub.
+
+You don't need to do a peer review on anyone else's code, but feel free to look
+at other people's code if you want!
+
+I anticipate that you'll have questions. **Please ask them right away on
+[Schoology]!** 
 
 ## Part 3: Fork this repository
-All the remaining work will be done in your fork.
+Now that you've practiced the GitHub workflow, get started on the rest of the
+assignment by forking this repository. All the remaining work on this assignment
+will be done in your fork.
 
-## Part 3: Write a small program in ContextFree
+## Part 4: Write a small program in ContextFree
 1. Download ContextFree, a domain-specific language for making art. **You should
 download version 2.2**, which is _not_ the current version of the language.
 (download links: [Windows](http://www.contextfreeart.org/download/ContextFreeInstall2.2.2.exe), 
@@ -76,7 +93,7 @@ The version 2.2 documentation is
    firstname_lastname_variant.png` (where `variant` is the three-letter variant
    the uniquely identifies this version of your program).
 
-## Part 4: Read Fowler's introduction to DSLs
+## Part 5: Read Fowler's introduction to DSLs
 Read [Fowler, Chapter 2][Fowler].<sup>1</sup> For the most part, this reading is 
 self-contained. In a few places, Fowler references other parts of the book. 
 Ignore these references; you can understand the reading without them. It may be 
@@ -88,81 +105,41 @@ _<sup>1</sup> This copy of the reading is for class use only. You should not dis
  it to anyone outside the class. You should destroy your digital copy when the 
  class is over._
 
-## Find a DSL
-Find a DSL---one that you think most other people in the class *won’t* know. 
-When picking a DSL, it's good to find one for which you can find a few 
-example programs, so you can get a good sense of it. Sometimes it's hard to be 
-sure whether or not a language is actually a DSL. That's okay! If you find a 
-language that you think *might* be a DSL, but you're not sure, then go with 
-it---just assume that it *is* a DSL.
 
-## Describe your DSL
-Open the file `my-dsl.md`, read the questions there, and edit the file to
-include your answers to those questions. Back up your answers with any evidence 
-that you can find about your DSL. Your answers must be formatted in [markdown].
+## Part 6: Critique ContextFree
+Based on your reading and your use of ContextFree, answer the questions in
+`context-free.md`.
 
-_Note: there are many different kinds of markdown. If you already have a
-favorite kind of markdown, feel free to use it. If you don't have a favorite,
-you can use the same [markdown] that we use on the wiki._
+## Part 7: Peer review
 
-## Learn, use, and critique ContextFree
-1. Download ContextFree, a domain-specific language for making art. **You should
-download version 2.2**, which is _not_ the current version of the language.
-(download: [Windows](http://www.contextfreeart.org/download/ContextFreeInstall2.2.2.exe), 
-[Mac](http://www.contextfreeart.org/download/ContextFree2.2.2.dmg),
-[Linux](http://www.contextfreeart.org/download/ContextFreeSource2.2.2.tgz)).
-_Note: the Mac version is also installed on the CS lab Macs._ The version 2.2
-documentation is 
-[here](https://github.com/MtnViewJohn/context-free/wiki/Version-2-Syntax).
-
-2. Write an interesting ContextFree program. Save your program in a file called
-`firstname_lastname.cfdg` (where you fill in your first and last names, of
-course).
-
-3. Export a nice image from your program. (Choose the `Render` menu, then `Save
-Image...`) Use a `.png` extension, so your filename should be `
-firstname_lastname_variant.png` (where `variant` is the three-letter variant the
-uniquely identifies this version of your program).
-
-4. Answer the questions in `context-free.md`.
-
-## Identify your peer-review partner(s)
+### Identify your peer-review partner(s)
 Your name is on the left side of this table; the person whose work you should
 review is on the right side of this table:
 
-| Your name   | Your critique partner's name |
-| ----------- | ---------------------------  |
-| Anthony R.  |                              |
-| Daniel S.   |                              |
-| Daniel Z.   |                              |
-| Farhan A.   |                              |
-| Jeb B.      |                              |
-| Linnea N.   |                              |
-| Matt B.     |                              |
-| Renata P.   |                              |
-| Ross W.     |                              |
-| Sophia S.   |                              |
-| Tiffany F.  |                              |
+| Your name                | Your will critique this person's work |
+| ------------------------ | ------------------------------------- |
+| Eesha Agarwal            | Wiecheng Zeng                         |
+| Chieh-Hsiu (Jerry) Hung  | Yufan (Harry) Liu                     |
+| Yufan (Harry) Liu        | Eesha Agarwal                         |
+| Wiecheng Zeng            | Chieh-Hsiu (Jerry) Hung               |
 
-## Peer-review your partner's work
+### Peer-review your partner's work
 Once your partner has submitted, you can comment on their work. You should find
 their work linked on the [pull request page][Pulls]. Provide feedback on all
-aspects of your partner's work, including the information in `my-dsl.md`,
+aspects of your partner's work, specifically the information in
 `context-free.md`, their code, and their image. Here are some questions you
 might consider / answer when providing feedback:
 
-- Would you answer a question from the assignment differently than your partner
-did? For example, do you agree with how your partner described the DSL-ness of
-their language?
+- Do you agree or disagree with your partner's claims in `context-free.md`? Why?
+- If your partner has raised a question in `context-free.md`,
+try to answer it!
 - Did your partner describe anything that you also experienced? For example, did
 you try to do something in ContextFree that was difficult?
-- If your partner has raised a question in `my-dsl.md` or `context-free.md`,
-try to answer it!
 - Did you learn any cool language features (from ContextFree or Markdown) that
 might add to your partner's work?
 
 ## Grading
-Good responses (i.e., responses that receive a 3) will:
+Good responses (i.e., responses that receive a B) will:
 
    + fully respond to every prompt in the starter file, _and_
    + be well-written and easy to read, i.e., clear yet concise using good 
@@ -171,21 +148,24 @@ Good responses (i.e., responses that receive a 3) will:
    + where appropriate, support your thoughts with references to material from
    the reading or from language documentation.
 
-Great responses (i.e., responses that receive a 4) will additionally:
+Great responses (i.e., responses that receive an A) will additionally:
 
    + be particularly insightful, by using concepts from the reading to classify
    aspects of each DSL in the assignment and / or by disagreeing with the
    classification that Fowler might make and by presenting a strong argument for
    a different classification.
 
+## Part 8: Discussion questions
+Respond to the prompts in `discussion-questions.md`, by editing that file.
+
 ## Tasks
 
-- [ ] Read the [Assignment HOWTO]
-- [ ] Read Fowler's [introduction to DSLs][Fowler]
-- [ ] Find a DSL
-- [ ] Describe your DSL's implementation and semantics in `my-dsl.md`
-- [ ] Write a ContextFree program in `firstname_lastname.cfdg`
-- [ ] Make and save a nice picture in `firstname_lastname_variant.png`
-- [ ] Answer the questions in `context-free.md`
-- [ ] Submit your work
-- [ ] Comment on your critique partner's work
+- [ ] Read the [Assignment HOWTO].
+- [ ] Submit a pull request for your Coding Bat code.
+- [ ] Write a ContextFree program in `firstname_lastname.cfdg`.
+- [ ] Make and save a nice picture in `firstname_lastname_variant.png`.
+- [ ] Read Fowler's [introduction to DSLs][Fowler].
+- [ ] Answer the questions in `context-free.md`.
+- [ ] Submit a pull request for this assignment.
+- [ ] Comment on your critique partner's work.
+- [ ] Respond to the prompts in `discussion-questions.md`.
