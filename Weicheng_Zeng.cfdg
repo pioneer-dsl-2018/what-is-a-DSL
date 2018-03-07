@@ -1,0 +1,14 @@
+startshape BEGIN
+background {b -1}
+rule BEGIN {
+	120 * {} make {}
+}
+rule make {
+	CIRCLE {sat 1 b 1 }
+	make {y 1 s 0.9994 r 2 h 0.1}
+}
+rule make  {
+	SQUARE {sat 1 b 1}
+	make {y -1 s 0.9999 r -5 h 0.1}
+}
+//SSY SSZ STA DDC
