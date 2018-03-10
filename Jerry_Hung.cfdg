@@ -1,0 +1,19 @@
+startshape DOCUMENT
+rule DOCUMENT {
+	9* {r 80} PART {}
+}
+
+rule PART {
+	TRIANGLE {}
+	TRIANGLE {y 0.8 s 0.6}
+	TRIANGLE {}
+	TRIANGLE {y 0.8 s 0.6 flip 180}
+
+}
+rule PART 0.3{
+	TRIANGLE {}
+	PART { r 80 }
+	PART { r -80 }
+	PART { y 0.8 s 0.6 }
+	
+}
