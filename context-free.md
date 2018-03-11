@@ -1,12 +1,13 @@
-# Context Free Quesitons
+
+# Context Free Questions
 #### Zeng Wei Cheng
 
 ##  Who is this programming language for?
-Context-free is a domain specific language designed specificly for artists who have some knowledge in programming. Users of this language can easily get familiar to its syntax or symbols.
+Context-free is a external domain specific language designed specifically for artists who have some knowledge in programming. Users of this language can easily get familiar to its syntax or symbols.
 
 
 ## What is easy to do in this language? Why is it easy?
-It is quite easy to generate complex images with just a few lines of code. It creates these complex images by flipping, rotating, skewing, basic shapes including triangles, circles and suqares, all of which can be done by a single statement. Moreover, context-free is easy to generate variations; that is, the same piece of code can generate totally different images. And the user of this program can trace back a specific variation by identifying the three-letter-code shown.
+It is quite easy to generate complex images with just a few lines of code. It creates these complex images by flipping, rotating, skewing, basic shapes including triangles, circles and squares, all of which can be done by a single statement. Moreover, context-free is easy to generate variations; that is, the same piece of code can generate totally different images. And the user of this program can trace back a specific variation by identifying the three-letter-code shown.
 
 
 ## What is hard to do in this language? Why is it hard?
@@ -17,7 +18,7 @@ rule diamond {
     SQUARE [r 60]
     diamond [ x 0.5 s 0.8]}
 ```
-The outcome will be more unpredictable when involving more conplicated variations.
+The outcome will be more unpredictable when involving more complicated variations.
 ## How did you learn how to program in this language?
 I will first read some instructions about the syntax of context-free, and type in example codes to the compiler and see what comes out. Then, I will play it around by modifying the parameters or adding more features to it. When I get a big picture how the codes work, I will then try to write some codes on my own.
 
