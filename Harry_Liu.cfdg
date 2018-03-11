@@ -1,0 +1,18 @@
+startshape start
+
+rule start {
+ A {r 30}
+ A {r 150}
+ A {r 270}
+}
+
+rule A {
+ PIECE {}
+ A {r 35  x .9  s .9}
+}
+
+rule PIECE {
+  TRIANGLE{b 0}
+  TRIANGLE{s 0.5  b 1}
+  PIECE {r -3.5 s 0.5 b .05}
+}
