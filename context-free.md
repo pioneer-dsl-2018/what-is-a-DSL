@@ -1,17 +1,17 @@
-
 # Context Free Questions
 #### Zeng Wei Cheng
 
 ##  Who is this programming language for?
-Context-free is a external domain specific language designed specifically for artists who have some knowledge in programming. Users of this language can easily get familiar to its syntax or symbols.
+Context-free is a external(maybe) domain specific language designed specifically for artists who have some knowledge in programming. Users of this language can easily get familiar with its syntax or symbols.
 
 
 ## What is easy to do in this language? Why is it easy?
 It is quite easy to generate complex images with just a few lines of code. It creates these complex images by flipping, rotating, skewing, basic shapes including triangles, circles and squares, all of which can be done by a single statement. Moreover, context-free is easy to generate variations; that is, the same piece of code can generate totally different images. And the user of this program can trace back a specific variation by identifying the three-letter-code shown.
+It is easy because it is a good DSL design, allowing readers to easily understand. For example, context-free uses jargons such as skew, hue, and saturate. . .etc. And its syntax is quite easy, using space to separate parameters.
 
 
 ## What is hard to do in this language? Why is it hard?
-Because context-free generate the pictures by parameters of translate/rotate/scale/skew/flip, it was hard to predict the outcome of the code. Often, as a new user of context-free, I have little idea about what my code will produce until I "render" it. Also, a slight variation in the parameters will lead to totally different outcomes. For example, in this piece of code, the outcome will be very different if I add 0.1 to the "s" parameter.
+Because context-free generate pictures by parameters of translate/rotate/scale/skew/flip, it was hard to predict the outcome of the code, especially for new users. Often, as a new user of context-free, I have little idea about what my code will produce until I "render" it. Also, a slight variation in the parameters will lead to totally different outcomes. For example, in this piece of code, the outcome will be very different if I add 0.1 to the "s" parameter.
 ```
 startshape diamond
 rule diamond {
