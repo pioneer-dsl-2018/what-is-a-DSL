@@ -14,12 +14,13 @@ One difficulty in using ContextFree is that its limitation to only using squares
 
 ## How did you learn how to program in this language?
 
-In order to learn how to program in ContextFree, I used the GitHub documentation for the same. Each part of the syntax - from the startshape to defining rules to shape adjustments to loops and conditionals - were well-defined over there along with some formidable examples. Once I started working on my project, experimenting with the code and changing certain values to compare their expected with their actual effect on the image also helped me learn better about the parameters themselves.
+In order to learn how to program in ContextFree, I used the GitHub documentation for the same. Each part of the syntax - from startshape to defining rules to shape adjustments to loops and conditionals - were well-defined over there along with some formidable examples. Once I started working on my project, experimenting with the code and changing certain values to compare their expected with their actual effect on the image also helped me learn better about the parameters themselves.
 
 ## Describe what happens when a ContextFree program runs
 _Specifically, how does the computer interpret the rules in a program, in
 order to turn those rules into a picture?_
 
+According to my understanding, each rule in ContextFree is like a function in a general-purpose language. Each program works in a top-down approach. The rule called upon by the startshape begins to work first, if it is defined in terms of another rule, it then calls upon that rule, and then so on nd so forth until we have reached the fundamental function defined only in terms of the "primitive shapes", their parameters, and possibly itself. This shape is first created and then the program then goes back up in a bottom-up approach, adding to the image and executing each rule in terms of which the upper rule in the hierarchy is defined until it reaches the final one. This mechanism proceeds rather fast, therefore resulting in the image being produced in an animated manner each time the program is "rendered."
 
 ## What do you think is interesting about the ContextFree program you wrote?
 
