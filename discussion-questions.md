@@ -11,4 +11,4 @@ Examples include: "I didn't understand X, could we talk about it some more?", or
 "I disagree with readings in the following way:", or "I discovered something
 cool: ".
 
-I didn't entirely understand the classifications of DSls into external and internal - could we please discuss that some more? Thank you!
+I didn't entirely understand the classifications of DSLs into external and internal - could we please discuss that some more? Thank you!
