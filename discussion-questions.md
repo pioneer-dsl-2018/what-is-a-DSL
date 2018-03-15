@@ -1,8 +1,8 @@
 #  How much time did you spend on this assignment?
-I really don't know the exact hours I spent on this assignment, but approximately 9 hours in total:
+I really don't know the exact hours I spent on this assignment, but approximately 7 hours in total:
 3 hours in the splitarray and nestparen code;
 1.5 hour in reading the fowler's book;
-5+ hours in learning the context-free and markdown.
+3+ hours in learning the context-free and markdown.
 
 
 # Discussion questions / topics
