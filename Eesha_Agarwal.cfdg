@@ -1,0 +1,20 @@
+startshape FINAL
+
+rule FINAL {
+	9*[r 40]
+		SECOND[]
+}
+
+rule SECOND {
+	4*[r 10]
+		FIRST[]
+	SECOND [x 0.5 s 0.5 r 20]
+}
+
+rule FIRST{
+SQUARE [b 0]
+CIRCLE [b 1 s 0.95]
+TRIANGLE [b 0 s 0.95]
+SQUARE [b 1 s 0.95]
+FIRST [r 10 s 0.95]
+}
